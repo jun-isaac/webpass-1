@@ -1,3 +1,4 @@
+// 메뉴 호버시
 $(function () {
 	$('.depth1').hover(
 		function () {
@@ -15,6 +16,9 @@ $(function () {
 	)
 })
 
+
+
+// 이미지 슬라이드
 $(function () {
 	$('.slider li')
 		.eq(0)
@@ -42,6 +46,9 @@ $(function () {
 })
 
 
+
+// 탭 메뉴 notice 클릭시
+
 $(function(){
 	$('.notice-btn').click(
 		function(){
@@ -56,6 +63,9 @@ $(function(){
 		}
 	)
 })
+
+
+// 탭 메뉴 gallery 클릭시
 
 $(function(){
 	$('.gallery-btn').click(
@@ -73,6 +83,9 @@ $(function(){
 })
 
 
+
+// 모달창 메뉴 누를 시
+
 $(function(){
 	$('.click-modal').click(
 		function(){
@@ -81,6 +94,8 @@ $(function(){
 		}
 	)
 })
+
+// 모달창 닫기 버튼 누를 시
 
 $(function(){
 	$('.close').click(
